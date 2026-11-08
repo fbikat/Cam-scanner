@@ -61,7 +61,7 @@ go build -o cam-scanner cam-scanner.go
 # or, if you prefer a module
 go mod init cam-scanner
 go build -o cam-scanner .
-
+```
 ## Usage
 
 cam-scanner reads targets as a stream — either a file (`-i`) or stdin — and writes results to
